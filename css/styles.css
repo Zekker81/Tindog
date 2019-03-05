@@ -1,0 +1,150 @@
+body{
+  font-family: Montserrat;
+}
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-size: 1.5rem;
+  font-weight:900;
+}
+p{
+  color:#8f8f8f;
+}
+#title{
+  /* background-color: #ff4c68; */
+  background-image: linear-gradient(to bottom right,#ff4c68, #ef8172);
+}
+.title{
+  font-family: Montserrat-Black;
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Title image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:30%;
+}
+
+/* Navigation bar */
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Download buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+    padding: 5%;
+    display: block;
+    text-align: center;
+}
+.features-icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.features-icon:hover{
+  color:#ff4c68;
+}
+
+/* Testimonials */
+#testimonials{
+  text-align: center;
+  /* background-color:#ef8172; */
+  background-image: linear-gradient(#ff4c68, #ef8172);
+  color:white;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Press */
+#press{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin:20px;
+}
+
+/* pricing */
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* call to Action */
+#cta{
+  /* background-color:#ff4c68; */
+  background-image: linear-gradient(to bottom right,#ff4c68, #ef8172);
+  text-align: center;
+  padding: 7% 15%;
+}
+.cta-title{
+  font-family: Montserrat-Black;
+  font-size: 4rem;
+  font-weight: 900;
+  color: white;
+  padding:1%;
+}
+
+/* footer */
+#footer{
+  background-color:#fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+.footer-icon{
+  padding:3% 1%;
+}
+
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
